@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Fancy Box</title>
+  </head>
+
+  <body>
+
+<a href="http://www.hrsinfotech.com" class="iframe">Facebook</a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".iframe").fancybox({
+        'width'         : '75%',
+        'height'        : '75%',
+        'autoScale'     : false,
+        'transitionIn'  : 'none',
+        'transitionOut' : 'none',
+        'type'          : 'iframe'
+    });
+    }); 
+
+  </script>
+    
+  </body>
+</html>
